@@ -27,7 +27,7 @@ class Chehro:
                 rect_start = mp_drawing._normalized_to_pixel_coordinates(x_min, y_min, image.shape[1], image.shape[0])
                 rect_end = mp_drawing._normalized_to_pixel_coordinates(x_max, y_max, image.shape[1], image.shape[0])
 
-                bounding_boxes.append([x_min, y_min, x_max, y_max])
+                bounding_boxes.append([rect_start[0], rect_start[1], rect_end[0], rect_end[1]])
 
                 image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
                 if draw:
