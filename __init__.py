@@ -1,1 +1,0 @@
-from chehro.core import Chehro
