@@ -31,3 +31,22 @@ pip3 install chehro
 ```
 
 _NOTE_: In some systems(specially Linux based ones) _pip3_ might be just _pip_, since most of moderl Linux distributions just left Python2 behind. 
+
+## How to use
+
+First, create a new python environment or project. Then you easily can do this:
+
+```python
+import cv2
+from chehro import Chehro
+
+image = cv2.imread('faces.jpg')
+detector = Chehro(image)
+
+result, bboxes = detector.detect()
+
+# In case you might need no bounding box drawn around faces, just run it like this
+result, bboxes = detector.detect(draw=False)
+```
+
+_NOTE_ : `detect()` method returns a tuple made of an image (or the result) and a list of bounding boxed. All bounding boxes are normalized and you don't need to normalize it manually.
