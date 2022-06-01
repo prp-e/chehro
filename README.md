@@ -8,4 +8,18 @@ Chehro is a face detection library for python with a _[mediapipe](https://google
 
 ### From source
 
+First of all, you have to clone this repository to your local machine:
+
+```
+git clone https://github.com/prp-e/chehro
+```
+
+Then, you move to the source directory and run:
+
+```
+pip3 install -e .
+```
+
+_NOTE_: In some systems(specially Linux based ones) _pip3_ might be just _pip_, since most of moderl Linux distributions just left Python2 behind. 
+
 ### From PyPi
