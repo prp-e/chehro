@@ -14,7 +14,7 @@ setup(
     long_description_content_type='text/markdown',
     long_description=long_description,
     packages=find_packages(),
-    install_requires=['opencv', 'mediapipe'],
+    install_requires=['opencv-python', 'mediapipe'],
     keywords = ['face detection', 'cv', 'computer-vision'],
     classifiers = ["Development Status :: 1 - Planning",
         "Intended Audience :: Developers",
