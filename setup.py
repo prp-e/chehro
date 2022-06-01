@@ -5,7 +5,7 @@ with open('README.md') as f:
 
 setup(
     name='chehro',
-    version='0.0.3', 
+    version='0.0.4', 
     author='Muhammadreza Haghiri',
     author_email='<haghiri75@gmail.com>',
     url='https://github.com/prp-e/chehro',
