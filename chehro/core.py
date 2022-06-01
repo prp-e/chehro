@@ -29,6 +29,7 @@ class Chehro:
 
                 bounding_boxes.append([x_min, y_min, x_max, y_max])
 
+                image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
                 if draw:
                     cv2.rectangle(image, rect_start, rect_end, (0, 255, 0), 2)
                 
