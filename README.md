@@ -23,3 +23,11 @@ pip3 install -e .
 _NOTE_: In some systems(specially Linux based ones) _pip3_ might be just _pip_, since most of moderl Linux distributions just left Python2 behind. 
 
 ### From PyPi
+
+In case you want this package to be installed using _pip_ then just run this command:
+
+```
+pip3 install chehro
+```
+
+_NOTE_: In some systems(specially Linux based ones) _pip3_ might be just _pip_, since most of moderl Linux distributions just left Python2 behind. 
